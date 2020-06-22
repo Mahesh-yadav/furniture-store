@@ -91,6 +91,37 @@ body{
     white-space: nowrap;
 }
 
+.search{
+    grid-column: 8 / 10;
+    grid-row: 2 / 3;
+}
+
+.search-form{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+}
+
+.search-input{
+    grid-column: 3 / 11;
+    grid-row: 1 / 2;
+    outline: none;
+    border: none;
+    border-bottom: .1rem solid #12376e;
+    font-size: 1.3rem;
+    padding: .3rem .5rem;
+    color: #12376e;
+}
+
+.search-btn{
+    grid-column: 10 / 11;
+    grid-row: 1 / 2;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #12376e;
+    cursor: pointer;
+}
+
 
 
 
